@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 5rem;
+   
+}
+
+.buttons button {
+    box-sizing: border-box;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 15%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 1em;
+    box-shadow: 0 4px 32px 0 rgba(233, 231, 97, 0.02), 0 8px 64px 0 rgba(147, 241, 14, 0.08);
+    cursor: pointer;
+    margin-left: 1em;
+    margin-top: 30px;
+    
+}
+.buttonl button {
+    width: 7rem;
+    height: 7rem;
+    border-radius:50%;
+    border: none;
+    margin: 0 3rem;
+    font-size: 5em;
+  
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+}
+.buttons button:hover{
+    
+    background-color: rgb(243, 66, 66);
+}
+.buttons button:focus{
+    outline: 0;
+}
